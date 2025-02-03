@@ -1,0 +1,6 @@
+
+/* adjusts padding, margin, to include in the overall sizing on browsers */
+* {
+    box-sizing: border-box;
+}
+
