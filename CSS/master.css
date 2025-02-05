@@ -1,6 +1,17 @@
 
-/* adjusts padding, margin, to include in the overall sizing on browsers */
+
+@font-face{
+    font-family: 'LibreFranklin';
+    src: url('/Fonts/LibreFranklin.ttf') format('truetype');
+    font-weight: 100 900;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+/* automatically adjusts padding, margin, math to be the size indicated..
+ex:200px specified with 15px margin and padding will still be 200px*/
 * {
     box-sizing: border-box;
+    font-family: 'LibreFranklin';
 }
 
