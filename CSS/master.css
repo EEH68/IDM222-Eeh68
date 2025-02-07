@@ -1,17 +1,40 @@
-
-
 @font-face{
     font-family: 'LibreFranklin';
-    src: url('/Fonts/LibreFranklin.ttf') format('truetype');
+    src: url('../Fonts/LibreFranklin.ttf') format('truetype');
     font-weight: 100 900;
     font-style: normal;
     font-display: swap;
   }
   
-/* automatically adjusts padding, margin, math to be the size indicated..
+/* border box automatically adjusts padding, margin, math to be the size indicated..
 ex:200px specified with 15px margin and padding will still be 200px*/
 * {
     box-sizing: border-box;
     font-family: 'LibreFranklin';
 }
 
+/* Font Styling */
+h1{
+  font-size: 2rem;
+}
+
+h2{
+  font-size: 1.5rem;
+}
+
+p{
+  font-size: 1rem;
+}
+
+/* list styling */
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Nav */
+nav{
+  background-color: #10294B
+  
+}
