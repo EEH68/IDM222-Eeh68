@@ -28,6 +28,14 @@ h2{
   text-transform: uppercase;
 }
 
+section h2{
+  display: flex;
+  justify-content: center;
+  background-color: #10294B;
+  color: #F7C844;
+  padding: 1rem;
+}
+
 h3{
   font-size: 1.125rem;
 }
@@ -51,11 +59,20 @@ li{
   gap: 8px;
 }
 
+/* SPECIFIC LIS */
 .gray{
   background-color: #DCDCDC;
   padding: 1rem;
 }
 .white{
+  background-color: white;
+  padding: 1rem;
+}
+.gray-schedule{
+  background-color: #DCDCDC;
+  padding: 1rem;
+}
+.white-schedule{
   background-color: white;
   padding: 1rem;
 }
@@ -100,6 +117,7 @@ footer{
   padding: 1rem;
   margin-top: 1rem;
 }
+
 footer li{
   padding: .5rem;
 }
@@ -116,22 +134,53 @@ footer li{
   max-width: 716px;
 }
 
+.section-buttons{
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
 /* TABLET */
 @media (width>=750px){
 
-  /* NEWS GRID */
+/* NEWS GRID */
   .items{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
   }
 
-  /* changing all news boxes to gray */
+/* SCHEDULE LAYOUT */
+.gray-schedule{
+  background-color: #DCDCDC;
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.white-schedule{
+  background-color: white;
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.section-buttons{
+  flex-direction: row;
+  justify-content: center;
+}
+.section-buttons a{
+  width: 358px;
+}
+
+/* changing all news boxes to gray */
   .white{
     background-color: #DCDCDC;
   }
 
-  /* Footer alignment */
+/* Footer alignment */
 
    footer {
     align-items: center;
