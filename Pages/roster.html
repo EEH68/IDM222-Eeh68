@@ -10,74 +10,94 @@
 <body>
     <nav>
         <h1>Drexel Rowing</h1>
-        <a href="hamburger">
+        <a href="#footer" class="hamburger">
             <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M34.25 30.5H1.75C1.41848 30.5 1.10054 30.6317 0.866117 30.8661C0.631696 31.1005 0.5 31.4185 0.5 31.75L0.5 34.25C0.5 34.5815 0.631696 34.8995 0.866117 35.1339C1.10054 35.3683 1.41848 35.5 1.75 35.5H34.25C34.5815 35.5 34.8995 35.3683 35.1339 35.1339C35.3683 34.8995 35.5 34.5815 35.5 34.25V31.75C35.5 31.4185 35.3683 31.1005 35.1339 30.8661C34.8995 30.6317 34.5815 30.5 34.25 30.5ZM34.25 20.5H1.75C1.41848 20.5 1.10054 20.6317 0.866117 20.8661C0.631696 21.1005 0.5 21.4185 0.5 21.75L0.5 24.25C0.5 24.5815 0.631696 24.8995 0.866117 25.1339C1.10054 25.3683 1.41848 25.5 1.75 25.5H34.25C34.5815 25.5 34.8995 25.3683 35.1339 25.1339C35.3683 24.8995 35.5 24.5815 35.5 24.25V21.75C35.5 21.4185 35.3683 21.1005 35.1339 20.8661C34.8995 20.6317 34.5815 20.5 34.25 20.5ZM34.25 10.5H1.75C1.41848 10.5 1.10054 10.6317 0.866117 10.8661C0.631696 11.1005 0.5 11.4185 0.5 11.75L0.5 14.25C0.5 14.5815 0.631696 14.8995 0.866117 15.1339C1.10054 15.3683 1.41848 15.5 1.75 15.5H34.25C34.5815 15.5 34.8995 15.3683 35.1339 15.1339C35.3683 14.8995 35.5 14.5815 35.5 14.25V11.75C35.5 11.4185 35.3683 11.1005 35.1339 10.8661C34.8995 10.6317 34.5815 10.5 34.25 10.5ZM34.25 0.5H1.75C1.41848 0.5 1.10054 0.631696 0.866117 0.866116C0.631696 1.10054 0.5 1.41848 0.5 1.75L0.5 4.25C0.5 4.58152 0.631696 4.89946 0.866117 5.13388C1.10054 5.3683 1.41848 5.5 1.75 5.5H34.25C34.5815 5.5 34.8995 5.3683 35.1339 5.13388C35.3683 4.89946 35.5 4.58152 35.5 4.25V1.75C35.5 1.41848 35.3683 1.10054 35.1339 0.866116C34.8995 0.631696 34.5815 0.5 34.25 0.5Z" 
-            fill="#F7C844"/></svg></a>
+            fill="#F7C844"/></svg>
+        </a>
+        <div class="nav-links">
+            <a href="../index.html"><b>Home</b></a>
+            <a href="../Pages/schedule.html"><b>Schedule</b></a>
+            <a href="../Pages/roster.html"><b>Roster</b></a>
+            <a href="../Pages/results.html"><b>Results</b></a>
+            <a href="../Pages/donate.html"><b>Donate</b></a>
+        </div>
     </nav>
 
     <header>
-        <img src="../Images/home-index.webp" alt="drexel-3v-racing">
-        <h2>Schedule</h2>
+        <img src="../Images/Roster.webp" class="hero" alt="drexel-rower">
+        <h2>Roster</h2>
     </header>
 
     <main>
         <p><b>Sort by:</b></p>
-        <a href="#">Name (A-Z)</a>
+        <div class="section-buttons">
+            <a href="#" class="main-button"><b>Name (A-Z)</b></a>
+        </div>
 
         <section>
            <ul>
-            <li class="gray">
-                <img src="../Images/Athletics Wordmark D-Dragon Color 3200x1800 Identity Images.jpg" alt="athletics-logo">
-                <p><b>John Smith</b></p>
-                <p><b>Year:</b> Freshman</p>
-                <p><b>From:</b> New Jersey</p>
-                <p><b>Bio:</b> John's calm demeanor and precision as a coxswain help keep his crew steady and motivated during intense races. A psychology student, he’s passionate about mental health advocacy and enjoys practicing yoga.</p>
+            <li class="gray-roster">
+                <div class="circular"> <img src="../Images/Athlete Headshot.jpg"/> </div>
+                <div class="N-Y-F">
+                    <p><b>John Smith</b></p>
+                    <p><b>Year:</b> Freshman</p>
+                    <p><b>From:</b> New Jersey</p>
+                </div>
+                <p class="bio"><b>Bio:</b> John's calm demeanor and precision as a coxswain help keep his crew steady and motivated during intense races. A psychology student, he’s passionate about mental health advocacy and enjoys practicing yoga.</p>
             </li>
 
-            <li class="white">
-                <img src="../Images/Athletics Wordmark D-Dragon Color 3200x1800 Identity Images.jpg" alt="athletics-logo">
-                <p><b>Jack Brown</b></p>
-                <p><b>Year:</b> Sophmore</p>
-                <p><b>From:</b> Pennsylvania</p>
-                <p><b>Bio:</b> A rising star in the boat, Jack's focus and adaptability make him a key asset in any lineup. Outside of rowing, he’s a computer science major who enjoys coding apps and playing chess.</p>
+            <li class="white-roster">
+                <div class="circular"> <img src="../Images/Athlete Headshot.jpg"/> </div>
+                <div class="N-Y-F">
+                    <p><b>Jack Brown</b></p>
+                    <p><b>Year:</b> Sophmore</p>
+                    <p><b>From:</b> Pennsylvania</p>
+                </div>
+                <p class="bio"><b>Bio:</b> A rising star in the boat, Jack's focus and adaptability make him a key asset in any lineup. Outside of rowing, he’s a computer science major who enjoys coding apps and playing chess.</p>
             </li>
 
-            <li class="gray">
-                <img src="../Images/Athletics Wordmark D-Dragon Color 3200x1800 Identity Images.jpg" alt="athletics-logo">
-                <p><b>Peter Baker</b></p>
-                <p><b>Year:</b> Junior</p>
-                <p><b>From:</b> Virginia</p>
-                <p><b>Bio:</b> A former competitive swimmer, Peter made a seamless transition to rowing and excels as a stroke seat with unmatched endurance. He's also an aspiring filmmaker who enjoys documenting life on and off the water.</p>
+            <li class="gray-roster">
+                <div class="circular"> <img src="../Images/Athlete Headshot.jpg"/> </div>
+                <div class="N-Y-F">
+                    <p><b>Peter Baker</b></p>
+                    <p><b>Year:</b> Junior</p>
+                    <p><b>From:</b> Virginia</p>
+                </div>
+                <p class="bio"><b>Bio:</b> A former competitive swimmer, Peter made a seamless transition to rowing and excels as a stroke seat with unmatched endurance. He's also an aspiring filmmaker who enjoys documenting life on and off the water.</p>
             </li>
 
-            <li class="white">
-                <img src="../Images/Athletics Wordmark D-Dragon Color 3200x1800 Identity Images.jpg" alt="athletics-logo">
-                <p><b>Matthew Miller</b></p>
-                <p><b>Year:</b> Senior</p>
-                <p><b>From:</b> Connecticut</p>
-                <p><b>Bio:</b> Known for his explosive power and smooth technique, Matthew is the team's top sweeper and a two-time regional champion. When he’s not rowing, he’s perfecting his culinary skills and volunteering at a local youth center.</p>
+            <li class="white-roster">
+                <div class="circular"> <img src="../Images/Athlete Headshot.jpg"/> </div>
+                <div class="N-Y-F">
+                    <p><b>Matthew Miller</b></p>
+                    <p><b>Year:</b> Senior</p>
+                    <p><b>From:</b> Connecticut</p>
+                </div>
+                <p class="bio"><b>Bio:</b> Known for his explosive power and smooth technique, Matthew is the team's top sweeper and a two-time regional champion. When he’s not rowing, he’s perfecting his culinary skills and volunteering at a local youth center.</p>
             </li>
 
-            <li class="gray">
-                <img src="../Images/Athletics Wordmark D-Dragon Color 3200x1800 Identity Images.jpg" alt="athletics-logo">
-                <p><b>Kyle Davis</b></p>
-                <p><b>Year:</b> Graduate Student</p>
-                <p><b>From:</b> Deleware</p>
-                <p><b>Bio:</b> A fith-year varsity rower, Kyle brings his relentless determination and leadership to the team as co-captain. Off the water, he's pursuing a masters degree in environmental science and loves hiking and photography.</p>
+            <li class="gray-roster">
+                <div class="circular"> <img src="../Images/Athlete Headshot.jpg"/> </div>
+                <div class="N-Y-F">
+                    <p><b>Kyle Davis</b></p>
+                    <p><b>Year:</b> Graduate Student</p>
+                    <p><b>From:</b> Deleware</p>
+                </div>
+                <p class="bio"><b>Bio:</b> A fith-year varsity rower, Kyle brings his relentless determination and leadership to the team as co-captain. Off the water, he's pursuing a masters degree in environmental science and loves hiking and photography.</p>
             </li>
 
            </ul>
         </section>
     </main>
 
-    <footer>
+    <footer id="footer">
         <ul>
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="./schedule.html">Schedule</a></li>
-            <li><a href="./roster.html">Roster</a></li>
-            <li><a href="./results.html">Results</a></li>
-            <li><a href="./donate.html">Donate</a></li>
+            <li><a href="../index.html" class="main-button"><b>Home</b></a></li>
+            <li><a href="./schedule.html" class="main-button"><b>Schedule</b></a></li>
+            <li><a href="./roster.html" class="main-button"><b>Roster</b></a></li>
+            <li><a href="./results.html" class="main-button"><b>Results</b></a></li>
+            <li><a href="./donate.html" class="main-button"><b>Donate</b></a></li>
         </ul>
     </footer>
 </body>
