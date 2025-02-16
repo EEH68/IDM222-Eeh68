@@ -69,6 +69,10 @@ nav{
   padding: 1rem;
 }
 
+.nav-links{
+  display: none;
+}
+
 /* header */
 header{
 text-align: center;
@@ -145,6 +149,54 @@ footer li{
     padding: 0; 
   }
 }
+
+/* DESKTOP */
+
+  @media (width >= 950px) {
+
+/* Hide the hamburger menu on desktop */
+    .hamburger {
+      display: none;
+    }
+
+
+/* NEWS GRID */
+     .items {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1rem;
+    }
+  
+/* Hide the footer on desktop */
+    footer {
+      display: none;
+    }
+  
+/* Show the nav-links on desktop */
+    .nav-links {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      gap: 1rem;    
+    }
+
+    .nav-links a{
+      color: #F7C844;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size: 1.25rem;
+    }
+
+/* Hover animations */
+    .nav-links a:hover{
+      text-decoration: underline;
+    }
+
+    .main-button:hover{
+      background-color: #E2B73F;
+    }
+
+  }
 
 
 
