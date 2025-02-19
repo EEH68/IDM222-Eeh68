@@ -11,6 +11,7 @@ ex:200px specified with 15px margin and padding will still be 200px*/
 * {
     box-sizing: border-box;
     font-family: 'LibreFranklin';
+    font-size: 100%;
 }
 
 /* MOBILE */
@@ -43,7 +44,7 @@ h3{
 p{
   font-size: 1rem;
   margin: 0;
-  line-height: 150%;
+  line-height: 1.5;
 }
 
 /* lists*/
@@ -63,11 +64,13 @@ li{
 .gray{
   background-color: #DCDCDC;
   padding: 1rem;
+  justify-content: space-around;
 }
 .white{
   background-color: white;
   padding: 1rem;
   border: 5px solid #DCDCDC;
+  justify-content: space-around;
 }
 .gray-schedule{
   background-color: #DCDCDC;
@@ -107,6 +110,7 @@ nav{
   padding: 1rem;
   position: sticky;
   top: 0;
+  z-index: 10000;
 }
 
 .nav-links{
@@ -184,6 +188,7 @@ footer li{
 /* TABLET */
 @media (width>=750px){
 
+ 
 /* NEWS GRID */
   .items{
     display: grid;
@@ -194,6 +199,7 @@ footer li{
 /* changing all news boxes to gray */
   .white{
     background-color: #DCDCDC;
+    border: none;
   }
 
 /* SCHEDULE LAYOUT */
