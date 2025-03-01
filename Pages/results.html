@@ -10,286 +10,373 @@
 <body>
     <nav>
         <h1>Drexel Rowing</h1>
-        <a href="hamburger">
+        <a href="#footer" class="hamburger">
             <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M34.25 30.5H1.75C1.41848 30.5 1.10054 30.6317 0.866117 30.8661C0.631696 31.1005 0.5 31.4185 0.5 31.75L0.5 34.25C0.5 34.5815 0.631696 34.8995 0.866117 35.1339C1.10054 35.3683 1.41848 35.5 1.75 35.5H34.25C34.5815 35.5 34.8995 35.3683 35.1339 35.1339C35.3683 34.8995 35.5 34.5815 35.5 34.25V31.75C35.5 31.4185 35.3683 31.1005 35.1339 30.8661C34.8995 30.6317 34.5815 30.5 34.25 30.5ZM34.25 20.5H1.75C1.41848 20.5 1.10054 20.6317 0.866117 20.8661C0.631696 21.1005 0.5 21.4185 0.5 21.75L0.5 24.25C0.5 24.5815 0.631696 24.8995 0.866117 25.1339C1.10054 25.3683 1.41848 25.5 1.75 25.5H34.25C34.5815 25.5 34.8995 25.3683 35.1339 25.1339C35.3683 24.8995 35.5 24.5815 35.5 24.25V21.75C35.5 21.4185 35.3683 21.1005 35.1339 20.8661C34.8995 20.6317 34.5815 20.5 34.25 20.5ZM34.25 10.5H1.75C1.41848 10.5 1.10054 10.6317 0.866117 10.8661C0.631696 11.1005 0.5 11.4185 0.5 11.75L0.5 14.25C0.5 14.5815 0.631696 14.8995 0.866117 15.1339C1.10054 15.3683 1.41848 15.5 1.75 15.5H34.25C34.5815 15.5 34.8995 15.3683 35.1339 15.1339C35.3683 14.8995 35.5 14.5815 35.5 14.25V11.75C35.5 11.4185 35.3683 11.1005 35.1339 10.8661C34.8995 10.6317 34.5815 10.5 34.25 10.5ZM34.25 0.5H1.75C1.41848 0.5 1.10054 0.631696 0.866117 0.866116C0.631696 1.10054 0.5 1.41848 0.5 1.75L0.5 4.25C0.5 4.58152 0.631696 4.89946 0.866117 5.13388C1.10054 5.3683 1.41848 5.5 1.75 5.5H34.25C34.5815 5.5 34.8995 5.3683 35.1339 5.13388C35.3683 4.89946 35.5 4.58152 35.5 4.25V1.75C35.5 1.41848 35.3683 1.10054 35.1339 0.866116C34.8995 0.631696 34.5815 0.5 34.25 0.5Z" 
-            fill="#F7C844"/></svg></a>
+            fill="#F7C844"/></svg>
+        </a>
+        <div class="nav-links">
+            <a href="../index.html"><b>Home</b></a>
+            <a href="../Pages/schedule.html"><b>Schedule</b></a>
+            <a href="../Pages/roster.html"><b>Roster</b></a>
+            <a href="../Pages/results.html"><b>Results</b></a>
+            <a href="../Pages/donate.html"><b>Donate</b></a>
+        </div>
     </nav>
 
     <header>
-        <img src="../Images/Oars.webp" alt="drexel-oars">
+        <img src="../Images/Results.webp" class="hero-results" alt="drexel-oars">
         <h2>Results</h2>
     </header>
 
     <main>
-        <a href="#schedule-fall">Jump to Fall</a>
-        <a href="#schedule-spring">Jump to Spring</a>
+        <div class="section-buttons">
+            <a href="#results-fall" class="main-button"><b>Jump to Fall</b></a>
+            <a href="#results-spring" class="main-button"><b>Jump to Spring</b></a>
+        </div>
 
-        <section class="fall" id="schedule-fall">
+        <section class="fall" id="results-fall">
             <h2>Fall</h2>
             <ul>
-                <li class="gray">
+                <li class="gray-results">
                     <h3>Navy Day Regatta</h3>
-                <p><b>Men's Collegiate 8+ (30 boats)</b></p>
-                    <p>
-                    Drexel "A" – 5th – 12:20.610 <br>
-                    Drexel "B" – 10th – 12:32.340 <br>
-                    Drexel "C" – 11th – 12:38.390 <br>
-                    </p>
-                <p><b>Men's Collegiate JV8+ (11 boats)</b></p> 
-                    <p>
-                    Drexel "A" – 2nd – 13:17.990 <br>
-                    Drexel "B" – 6th – 13:22.460 <br>
-                    Drexel "C" – 7th – 13:26.070 <br>
-                    </p> 
+                    <div class="results-wrap">
+                        <div>
+                            <p><b>Men's Collegiate 8+ (30 boats)</b></p>
+                            <p>
+                            Drexel "A" – 5th – 12:20.610 <br>
+                            Drexel "B" – 10th – 12:32.340 <br>
+                            Drexel "C" – 11th – 12:38.390 <br>
+                            </p>
+                        </div>
+                        <div>
+                            <p><b>Men's Collegiate JV8+ (11 boats)</b></p> 
+                            <p>
+                            Drexel "A" – 2nd – 13:17.990 <br>
+                            Drexel "B" – 6th – 13:22.460 <br>
+                            Drexel "C" – 7th – 13:26.070 <br>
+                            </p> 
+                        </div>
+                    </div>
                 </li>
 
-                <li class="white">
+                <li class="white-results">
                     <h3>Head of the Charles Regatta</h3>
-                    <p><b>Championship 8+ (27 boats)</b></p>
-                    <p>
-                        Drexel – 24th - 15:41.878
-                    </p>
-                    <p><b>Collegiate 8+ (42 boats)</b></p>
-                    <p>
-                        Drexel – 11th - 15:54.571
-                    </p>
+                    <div class="results-wrap">
+                        <div>
+                            <p><b>Championship 8+ (27 boats)</b></p>
+                            <p>Drexel – 24th - 15:41.878</p>
+                        </div>
+                        <div>
+                            <p><b>Collegiate 8+ (42 boats)</b></p>
+                            <p>Drexel – 11th - 15:54.571</p>
+                        </div>
+                    </div>
                 </li>
 
-                <li class="gray">
+                <li class="gray-results">
                     <h3>Head of the Schuylkill Regatta</h3>
-                    <p><b>Men's Collegiate 8+ (30 boats)</b></p>
-                    <p>
-                        Drexel "A" – 5th – 12:20.610 <br> 
-                        Drexel "B" – 10th – 12:32.340 <br> 
-                        Drexel "C" – 11th – 12:38.390 <br>
-                    </p>
-                    <p><b>Men's Collegiate JV8+ (11 boats)</b></p>
-                    <p>
-                        Drexel "A" – 2nd – 13:17.990 <br> 
-                        Drexel "B" – 6th – 13:22.460 <br> 
-                        Drexel "C" – 7th – 13:26.070 <br>
-                    </p>
+                    <div class="results-wrap">
+                        <div>
+                            <p><b>Men's Collegiate 8+ (30 boats)</b></p>
+                            <p>
+                                Drexel "A" – 5th – 12:20.610 <br> 
+                                Drexel "B" – 10th – 12:32.340 <br> 
+                                Drexel "C" – 11th – 12:38.390 <br>
+                            </p>
+                        </div>
+                        <div>
+                            <p><b>Men's Collegiate JV8+ (11 boats)</b></p>
+                            <p>
+                                Drexel "A" – 2nd – 13:17.990 <br> 
+                                Drexel "B" – 6th – 13:22.460 <br> 
+                                Drexel "C" – 7th – 13:26.070 <br>
+                            </p>
+                        </div>
+                    </div>
                 </li>
 
-                <li class="white">
+                <li class="white-results">
                     <h3>Princeton Chase</h3>
-                    <p><b>Men's Heavyweight 8+ (38 boats)</b></p>
-                    <p>
-                        Drexel "A" - 4th - 13:09.627 <br>
-                        Drexel "B" - 14th 13:32.886 <br>
-                        Drexel "C" - 21st - 13:54.503 <br>
-                    </p>
+                    <div class="results-wrap">
+                        <div>
+                            <p><b>Men's Heavyweight 8+ (38 boats)</b></p>
+                            <p>
+                                Drexel "A" - 4th - 13:09.627 <br>
+                                Drexel "B" - 14th 13:32.886 <br>
+                                Drexel "C" - 21st - 13:54.503 <br>
+                            </p>
+                        </div>
+                    </div>
                 </li>
             </ul>
         </section>
 
-        <section class="spring" id="schedule-spring">
+        <section class="spring" id="results-spring">
+            <h2>Spring</h2>
             <ul>
-                <li class="gray">
+                <li class="gray-results">
                     <h3>Las Vegas Invite</h3>
-                    <p><b>Varsity 8+</b></p>
-                    <p>
-                        Drexel - 1st - 5:56.56 <br>
-                        Oregon State - 2nd - 6:00.22 <br>
-                        San Diego - 3rd - 6:02.90 <br>
-                    </p>
-                    <p><b>2nd Varisty 8+</b></p>
-                    <p>
-                        Drexel - 1st - 5:56.30 <br>
-                        Oregon State - 2nd - 6:08.8 <br>
-                    </p>
-                    <p><b>Varsity 8+ (Round 2)</b></p>
-                    <p>
-                        Cal - 1st - 5:30.96 <br> 
-                        Drexel - 2nd - 5:46.14 <br>
-                        UC San Diego - 3rd - 5:46.80 <br>
-                    </p>
+                    <div class="results-wrap">
+                        <div>
+                            <p><b>Varsity 8+</b></p>
+                            <p>
+                                Drexel - 1st - 5:56.56 <br>
+                                Oregon State - 2nd - 6:00.22 <br>
+                                San Diego - 3rd - 6:02.90 <br>
+                            </p>
+                        </div>
+                        <div>
+                            <p><b>2nd Varisty 8+</b></p>
+                            <p>
+                                Drexel - 1st - 5:56.30 <br>
+                                Oregon State - 2nd - 6:08.8 <br>
+                            </p>
+                        </div>
+                        <div>
+                            <p><b>Varsity 8+ (Round 2)</b></p>
+                            <p>
+                                Cal - 1st - 5:30.96 <br> 
+                                Drexel - 2nd - 5:46.14 <br>
+                                UC San Diego - 3rd - 5:46.80 <br>
+                            </p>
+                        </div>
+                    </div>
                 </li>
 
-                <li class="white">
+                <li class="white-results">
                     <h3>VS LaSalle</h3>
-                    <p><b>Varsity 8+</b></p>
-                    <p>
-                        La Salle 1V – 1st - 5:30.5 <br>
-                        Drexel V8+ – 2nd - 5:32.3 <br>
-                        Drexel 3V8+ – 3rd - 5:52.4 <br>
-                    </p>
-                    <p><b>2nd Varsity 8+</b></p>
-                    <p>
-                        La Salle 2V – 1st - 5:44.8 <br>
-                        Drexel 2V8+ - 2nd - 5:46.08 <br>
-                        Drexel 4V8+ - 3rd - 6:27.37 <br>
-                    </p>
-                    <p><b>Varsity 4+</b></p>
-                    <p>
-                        Drexel V4+ A - 1st - 6:39 <br>
-                        Drexel V4+ B - 2nd 7:07 <br>
-                        La Salle V4+ - 3rd - 7:28 <br>
-                    </p>
+                    <div class="results-wrap">
+                        <div>
+                            <p><b>Varsity 8+</b></p>
+                            <p>
+                            La Salle 1V – 1st - 5:30.5 <br>
+                            Drexel V8+ – 2nd - 5:32.3 <br>
+                            Drexel 3V8+ – 3rd - 5:52.4 <br>
+                            </p>
+                        </div>
+                        <div>
+                            <p><b>2nd Varsity 8+</b></p>
+                            <p>
+                                La Salle 2V – 1st - 5:44.8 <br>
+                                Drexel 2V8+ - 2nd - 5:46.08 <br>
+                                Drexel 4V8+ - 3rd - 6:27.37 <br>
+                            </p>
+                        </div>
+                        <div>
+                            <p><b>Varsity 4+</b></p>
+                            <p>
+                                Drexel V4+ A - 1st - 6:39 <br>
+                                Drexel V4+ B - 2nd 7:07 <br>
+                                La Salle V4+ - 3rd - 7:28 <br>
+                            </p>
+                        </div>
+                    </div>
                 </li>
 
-                <li class="gray">
+                <li class="gray-results">
                     <h3>VS Princeton, Temple, Georgetown</h3>
-                    <p><b>Varsity 8+</b></p>
-                    <p>
-                        Princeton - 1st - 5:43.0 <br>
-                        Drexel - 2nd - 6:00.2 <br>
-                        Georgetown - 3rd - 6.00.5 <br>
-                        Temple - 4th - 6:15.2b <br>
-                    </p>
-                    <p><b>2nd Varsity 8+</b></p>
-                    <p>
-                        Princeton - 1st - 6:03.4 <br>
-                        Georgetown - 2nd - 6:11.7 <br>
-                        Temple - 3rd - 6:18.1 <br>
-                        Drexel - 4th - 6:22.2 <br>
-                    </p>
-                    <p><b>3rd Varsity 8+</b></p>
-                    <p>
-                        Princeton - 1st - 6:10.3 <br>
-                        Drexel - 2nd - 6:25.7 <br>
-                        Georgetown - 3rd - 6:29.2 <br>
-                        Temple - 4th - 6:33.6 <br>
-                    </p>
-                    <p><b>4th and 5th Varsity 8+</b></p>
-                    <p>
-                        Princeton 4V8+ - 1st - 6:28.4 <br>
-                        Drexel 4V8+ - 2nd - 6:42.7 <br>
-                        Georgetown 4V8+ - 3rd - 6:50.8 <br>
-                        Princeton 5V8+ - 4th - 7:01.4 <br>
-                        Drexel 5V8+ - 5th - 7:13.3 <br>
-                    </p>
+                    <div class="results-wrap">
+                        <div>
+                            <p><b>Varsity 8+</b></p>
+                            <p>
+                                Princeton - 1st - 5:43.0 <br>
+                                Drexel - 2nd - 6:00.2 <br>
+                                Georgetown - 3rd - 6.00.5 <br>
+                                Temple - 4th - 6:15.2b <br>
+                            </p>
+                        </div>
+                        <div>
+                            <p><b>2nd Varsity 8+</b></p>
+                            <p>
+                                Princeton - 1st - 6:03.4 <br>
+                                Georgetown - 2nd - 6:11.7 <br>
+                                Temple - 3rd - 6:18.1 <br>
+                                Drexel - 4th - 6:22.2 <br>
+                            </p>
+                        </div>
+                        <div>
+                            <p><b>3rd Varsity 8+</b></p>
+                            <p>
+                                Princeton - 1st - 6:10.3 <br>
+                                Drexel - 2nd - 6:25.7 <br>
+                                Georgetown - 3rd - 6:29.2 <br>
+                                Temple - 4th - 6:33.6 <br>
+                            </p>
+                        </div>
+                        <div>
+                            <p><b>4th and 5th Varsity 8+</b></p>
+                            <p>
+                                Princeton 4V8+ - 1st - 6:28.4 <br>
+                                Drexel 4V8+ - 2nd - 6:42.7 <br>
+                                Georgetown 4V8+ - 3rd - 6:50.8 <br>
+                                Princeton 5V8+ - 4th - 7:01.4 <br>
+                                Drexel 5V8+ - 5th - 7:13.3 <br>
+                            </p>
+                        </div>
+                    </div>
                 </li>
 
-                <li class="white">
-                    <h3>Occoquan Invite</h3>
-                <p><b>Varsity 8+</b></p>
-                <p>
-                    Navy - 1st - 5:45.61 <br>
-                    Drexel - 2nd - 5:48.31 <br>
-                    Georgetown - 3rd - 5:50.67 <br> 
-                    Holy Cross - 4th - 5:54.04 <br>
-                </p>
-                <p><b>2nd Varsity 8+</b></p>
-                <p>
-                    Navy - 1st - 5:51.95 <br> 
-                    Drexel - 2nd - 5:53.45 <br>
-                    Georgetown - 3rd - 6:00.10 <br>
-                    Holy Cross - 4th - 6:03.63 <br>
-                </p>
-                <p><b>3rd Varsity 8+</b></p>
-                <p>
-                    Navy - 1st - 6:06.48 <br>
-                    Drexel - 2nd - 6:08.09 <br>
-                    Georgetown - 3rd - 6:09.82 <br>
-                    Holy Cross - 4th - 6:30.62 <br>
-                </p>
-                <p><b>4th Varsity 8+</b></p>
-                <p>
-                    Navy - 1st - 6:07.4 <br>
-                    Georgetown - 2nd - 6:17.3 <br>
-                    Drexel - 3rd - 6:23.03 <br> 
-                    Holy Cross - 4th - 6:31.96 <br>
-                </p>
-                <p><b>5th Varsity 8+</b></p>
-                <p>
-                    Navy 5V - 1st - 6:08.51 <br> 
-                    Navy 6V - 2nd - 6:09.2 <br>
-                    Drexel - 3rd - 6:21.79 <br>
-                </p>
+                <li class="white-results">
+                <h3>Occoquan Invite</h3>
+                <div class="results-wrap">
+                    <div>
+                        <p><b>Varsity 8+</b></p>
+                        <p>
+                            Navy - 1st - 5:45.61 <br>
+                            Drexel - 2nd - 5:48.31 <br>
+                            Georgetown - 3rd - 5:50.67 <br> 
+                            Holy Cross - 4th - 5:54.04 <br>
+                        </p>
+                    </div>
+                    <div>
+                        <p><b>2nd Varsity 8+</b></p>
+                        <p>
+                            Navy - 1st - 5:51.95 <br> 
+                            Drexel - 2nd - 5:53.45 <br>
+                            Georgetown - 3rd - 6:00.10 <br>
+                            Holy Cross - 4th - 6:03.63 <br>
+                        </p>
+                    </div>
+                    <div>
+                        <p><b>3rd Varsity 8+</b></p>
+                        <p>
+                            Navy - 1st - 6:06.48 <br>
+                            Drexel - 2nd - 6:08.09 <br>
+                            Georgetown - 3rd - 6:09.82 <br>
+                            Holy Cross - 4th - 6:30.62 <br>
+                        </p>
+                    </div>
+                    <div>
+                        <p><b>4th Varsity 8+</b></p>
+                        <p>
+                            Navy - 1st - 6:07.4 <br>
+                            Georgetown - 2nd - 6:17.3 <br>
+                            Drexel - 3rd - 6:23.03 <br> 
+                            Holy Cross - 4th - 6:31.96 <br>
+                        </p>
+                    </div>
+                    <div>
+                        <p><b>5th Varsity 8+</b></p>
+                        <p>
+                            Navy 5V - 1st - 6:08.51 <br> 
+                            Navy 6V - 2nd - 6:09.2 <br>
+                            Drexel - 3rd - 6:21.79 <br>
+                        </p>
+                    </div>
+                </div>
                 </li>
 
-                <li class="gray">
+                <li class="gray-results">
                 <h3>Kerr Cup Regatta</h3>
-                <p><b>Varsity 8+</b></p>
-                <p>
-                    LaSalle - 1st - 5:44.2 <br>
-                    Drexel - 2nd - 5:44.8 <br>
-                    Saint Joseph's - 3rd - 5:56.4 <br>
-                    Rutgers - 4th - 6:00.4 <br>
-                    George Washington - 5th - 6:06.2 <br>
-                    Fairfield - 6th - 6:25.3 <br>
-                </p>
-                <p><b>2nd Varsity 8+</b></p>
-                <p>
-                    Drexel A - 1st - 5:52.0 <br>
-                    LaSalle - 2nd - 5:56.2 <br>
-                    Drexel B - 3rd - 6:03.9 <br>
-                    Saint Joseph's - 4th - 6:04.3 <br>
-                    Drexel C - 5th - 6:12.1 <br>
-                    Bucknell - 6th - 6:13.2 <br>
-                </p>
-                <p><b>3rd Varsity V8+</b></p>
-                <p>
-                    Bucknell A - 1st - 6:10.0 <br>
-                    Saint Joseph's - 2nd - 6:12.2 <br>
-                    Drexel - 3rd - 6:13.0 <br>
-                    Bucknell B - 4th - 6:29.6 <br>
-                    Rutgers - 5th - 6:14.2 <br>
-                    Fairfield - 6th - 6:37.7 <br>
-                </p>
-                <p><b>Junior Varsity 4+</b></p>
-                <P>
-                    Lafayette A - 1st - 7:04.3 <br>
-                    Drexel - 2nd - 7:18.3 <br>
-                    George Washington - 3rd - 7:26.0 <br>
-                    Rutgers - 4th - 7:30.9 <br>
-                    Lafayette B - 5th - 7:31.9 <br>
-                </p>
+                <div class="results-wrap">
+                    <div>
+                        <p><b>Varsity 8+</b></p>
+                        <p>
+                            LaSalle - 1st - 5:44.2 <br>
+                            Drexel - 2nd - 5:44.8 <br>
+                            Saint Joseph's - 3rd - 5:56.4 <br>
+                            Rutgers - 4th - 6:00.4 <br>
+                            George Washington - 5th - 6:06.2 <br>
+                            Fairfield - 6th - 6:25.3 <br>
+                        </p>
+                    </div>
+                    <div>
+                        <p><b>2nd Varsity 8+</b></p>
+                        <p>
+                            Drexel A - 1st - 5:52.0 <br>
+                            LaSalle - 2nd - 5:56.2 <br>
+                            Drexel B - 3rd - 6:03.9 <br>
+                            Saint Joseph's - 4th - 6:04.3 <br>
+                            Drexel C - 5th - 6:12.1 <br>
+                            Bucknell - 6th - 6:13.2 <br>
+                        </p>
+                    </div>
+                    <div>
+                        <p><b>3rd Varsity V8+</b></p>
+                        <p>
+                            Bucknell A - 1st - 6:10.0 <br>
+                            Saint Joseph's - 2nd - 6:12.2 <br>
+                            Drexel - 3rd - 6:13.0 <br>
+                            Bucknell B - 4th - 6:29.6 <br>
+                            Rutgers - 5th - 6:14.2 <br>
+                            Fairfield - 6th - 6:37.7 <br>
+                        </p>
+                    </div>
+                    <div>
+                        <p><b>Junior Varsity 4+</b></p>
+                        <P>
+                            Lafayette A - 1st - 7:04.3 <br>
+                            Drexel - 2nd - 7:18.3 <br>
+                            George Washington - 3rd - 7:26.0 <br>
+                            Rutgers - 4th - 7:30.9 <br>
+                            Lafayette B - 5th - 7:31.9 <br>
+                        </p>
+                    </div>
+                </div>
                 </li>
 
-                <li class="white">
+                <li class="white-results">
                     <h3>IRA National Championships</h3>
-                <p><b>Varsity 8+ - Third Final</b></p>
-                <p>
-                    Cornell - 1st - 5:42.669 <br>
-                    Columbia - 2nd - 5:45.476 <br>
-                    Navy - 3rd - 5:49.556 <br>
-                    Drexel - 4th - 5:49.049 <br>
-                    La Salle - 5th - 5:50.049 <br>
-                    Georgetown - 6th - 5:51.026 <br>
-                </p>
-                <p><b>2nd Varsity 8+ - Third Final</b></p>
-                <p>
-                    Stanford - 1st - 5:49.189 <br>
-                    Navy - 2nd - 5:51.586 <br>
-                    Columbia - 3rd - 5:52.203 <br> 
-                    Oregon State - 4th - 5:58.359 <br> 
-                    Georgetown - 5th - 6:00.289 <br>
-                    Drexel - 6th - 6:03.693 <br>
-                </p>
-                <p><b>3rd Varsity 8+ - Third Final</b></p>
-                <p>
-                    Wisconsin - 1st - 5:56.347 <br>
-                    Drexel - 2nd - 5:59.613 <br>
-                    Navy - 3rd - 6:02.737 <br>
-                    Oregon State - 4th - 6:05.727 <br> 
-                    Georgetown - 5th - 6:06.603 <br>
-                    Santa Clara - 6th - 6:13.620 <br>
-                    UC San Diego - 7th - 6:25.377 <br>
-                </p>
-                <p><b>Varsity 4+ - Third Final</b></p>
-                <p>
-                    Penn - 1st - 6:31.759 <br>
-                    Stetson - 2nd - 6:32.233 <br>
-                    St. Joseph's - 3rd - 6:35.659 <br>  
-                    Boston - 4th - 6:36.539 <br>
-                    Hobart - 5th - 6:38.929 <br>
-                    Drexel - 6th - 6:42.379 <br>
-                </p>
+                    <div class="results-wrap">
+                        <div>
+                            <p><b>Varsity 8+ - Third Final</b></p>
+                            <p>
+                                Cornell - 1st - 5:42.669 <br>
+                                Columbia - 2nd - 5:45.476 <br>
+                                Navy - 3rd - 5:49.556 <br>
+                                Drexel - 4th - 5:49.049 <br>
+                                La Salle - 5th - 5:50.049 <br>
+                                Georgetown - 6th - 5:51.026 <br>
+                            </p>
+                        </div>
+                        <div>
+                            <p><b>2nd Varsity 8+ - Third Final</b></p>
+                            <p>
+                                Stanford - 1st - 5:49.189 <br>
+                                Navy - 2nd - 5:51.586 <br>
+                                Columbia - 3rd - 5:52.203 <br> 
+                                Oregon State - 4th - 5:58.359 <br> 
+                                Georgetown - 5th - 6:00.289 <br>
+                                Drexel - 6th - 6:03.693 <br>
+                            </p>
+                        </div>
+                        <div>
+                            <p><b>3rd Varsity 8+ - Third Final</b></p>
+                            <p>
+                                Wisconsin - 1st - 5:56.347 <br>
+                                Drexel - 2nd - 5:59.613 <br>
+                                Navy - 3rd - 6:02.737 <br>
+                                Oregon State - 4th - 6:05.727 <br> 
+                                Georgetown - 5th - 6:06.603 <br>
+                                Santa Clara - 6th - 6:13.620 <br>
+                                UC San Diego - 7th - 6:25.377 <br>
+                            </p>
+                        </div>
+                        <div>
+                            <p><b>Varsity 4+ - Third Final</b></p>
+                            <p>
+                                Penn - 1st - 6:31.759 <br>
+                                Stetson - 2nd - 6:32.233 <br>
+                                St. Joseph's - 3rd - 6:35.659 <br>  
+                                Boston - 4th - 6:36.539 <br>
+                                Hobart - 5th - 6:38.929 <br>
+                                Drexel - 6th - 6:42.379 <br>
+                            </p>
+                        </div>
+                    </div>
                 </li>
             </ul>
         </section>
     </main>
 
-    <footer>
+    <footer id="footer">
         <ul>
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="./schedule.html">Schedule</a></li>
-            <li><a href="./roster.html">Roster</a></li>
-            <li><a href="./results.html">Results</a></li>
-            <li><a href="./donate.html">Donate</a></li>
+            <li><a href="../index.html" class="main-button"><b>Home</b></a></li>
+            <li><a href="./schedule.html" class="main-button"><b>Schedule</b></a></li>
+            <li><a href="./roster.html" class="main-button"><b>Roster</b></a></li>
+            <li><a href="./results.html" class="main-button"><b>Results</b></a></li>
+            <li><a href="./donate.html" class="main-button"><b>Donate</b></a></li>
         </ul>
     </footer>
     
