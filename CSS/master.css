@@ -50,6 +50,10 @@ p{
   line-height: 1.5;
 }
 
+.date{
+  margin: 1rem 0;
+}
+
 /* lists*/
 ul{
   list-style: none;
